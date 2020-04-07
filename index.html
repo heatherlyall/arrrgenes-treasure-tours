@@ -12,8 +12,13 @@
 </head>
 <body>
 
-  <header role="banner">
-    <nav class="nav" role="navigation">
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+  </ul>
+
+  <header class="masthead" role="banner">
+    <nav class="nav" role="navigation" id="nav" tabindex="0">
       <div class="masthead grid grid-middle gutter">
         <h1 class="logo push-0 unit [ xs-1 s-1 m-1-2 l-1-2 ] pad-t-1-2 pad-b-1-2">
           <i class="icon i-32 push-r-1-4"><img src="images/logo.svg" alt=""></i>
@@ -30,7 +35,7 @@
     </nav>
   </header>
 
-  <main role="main">
+  <main role="main" id="main" tabindex="0">
     <section>
     <div>
       <div class="banner embed embed-16by9">
