@@ -5,7 +5,7 @@ html {
 
 .masthead {
   background-color: #522806;
-  border-bottom: .3rem solid #bea59b;
+  border-bottom: .1rem solid #bea59b;
   color: #fff;
 }
 
@@ -70,6 +70,7 @@ html {
   background-color: #bea59b;
   border-color: #fff;
   color: #522806;
+  outline-color: #fff;
 }
 
 .footer {
@@ -81,8 +82,6 @@ html {
 .nav a:focus {
   outline-color: #fff;
 }
-
-
 
 @media only screen and (min-width: 38em) {
 
